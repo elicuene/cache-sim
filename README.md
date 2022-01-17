@@ -14,7 +14,9 @@ For example, “./cachesim tracefile 1024 4 wt 32” should simulate a cache tha
 The trace file will be in the following format. Each line will specify a single load or store, the 16-bit address that is being accessed (in base-16), the size of the access in bytes, and the value to be written if the access is a store (in base-16).
 
 Example Instructions:
+
 store 25bb 2 c77e
+
 load d531 4
 
 For each instruction the simulator outputs the type of instruction (load/store), the address, and whether it is a hit or miss
